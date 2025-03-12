@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
+  <Source Uri="https://github.com/maestro-auth-test/dotnet" Sha="30396b326fd26d00978521795f7d871e22a7e292" BarId="431" />
   <ProductDependencies>
-    <Dependency Name="System.CommandLine" Version="2.0.0-beta4.23307.1">
-      <Uri>https://github.com/dotnet/command-line-api</Uri>
-      <Sha>02fe27cd6a9b001c8feb7938e6ef4b3799745759</Sha>
+    <Dependency Name="System.CommandLine" Version="2.0.0-beta4.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
     <!-- Intermediate is necessary for source build. -->
     <Dependency Name="Microsoft.SourceBuild.Intermediate.command-line-api" Version="0.1.430701">
@@ -19,13 +20,13 @@
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="10.0.0-beta.25157.1">
-      <Uri>https://github.com/dotnet/arcade</Uri>
-      <Sha>1ec6078c26e4a60b77d8fe64881491cd28335a08</Sha>
+    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="10.0.0-beta.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.XliffTasks" Version="10.0.0-beta.25157.1">
-      <Uri>https://github.com/dotnet/arcade</Uri>
-      <Sha>1ec6078c26e4a60b77d8fe64881491cd28335a08</Sha>
+    <Dependency Name="Microsoft.DotNet.XliffTasks" Version="10.0.0-beta.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
     <!-- Intermediate is necessary for source build. -->
     <Dependency Name="Microsoft.SourceBuild.Intermediate.arcade" Version="10.0.0-beta.25157.1">
